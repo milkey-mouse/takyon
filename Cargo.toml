@@ -1,0 +1,6 @@
+[workspace]
+members = ["bump_alloc", "fixpoint", "takyon"]
+
+[profile.release]
+lto = true
+panic = "abort"
